@@ -1,0 +1,3 @@
+com\qa\testscripts\TestBase.class
+com\qa\testscripts\TC_W3SchoolAutomation_001.class
+com\qa\pages\W3SchoolPages.class

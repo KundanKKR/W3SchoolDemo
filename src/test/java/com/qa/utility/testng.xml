@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing of W3School">
+
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="https://www.w3schools.com/"></parameter>
+
+  <test thread-count="5" name="Functional Testing">
+  <classes>
+  <class name="com.qa.testscripts.TC_W3SchoolAutomation_001"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
